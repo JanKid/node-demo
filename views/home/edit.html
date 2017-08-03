@@ -1,0 +1,17 @@
+<%include ../common/header.html %>
+<div class="container">
+<%include ../sidebar.html %>
+<form class="edit-form" action="/home/user/save" method="post">
+		<input type="hidden" name="id" value="<%=user.id %>" >
+		<div class="form-item">
+			 <label for="">用户名：</label>
+		 <input  class="input" type="text" name="username" value="<%=user.username %>" >
+		</div>
+		<div class="form-item">
+			 <label for="">邮箱：</label>
+		 <input class="input" type="email" name="email" value="<%=user.email %>" >
+		</div>
+		<button class="btn btn-primary" style="margin-left: 130px">保存</button>
+	</form>
+</div>
+<%include ../common/footer.html %>

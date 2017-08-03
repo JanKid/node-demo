@@ -1,0 +1,31 @@
+<%include ../common/header.html %>
+<div class="container">
+<%include ../sidebar.html %>
+<form action="/home/user" method="post">
+<input type="text" name="query" value="<%=query%>" placeholder="请输入用户名">
+<button class="btn btn-primary">查询</button>
+<a class="btn" href="/home/user/edit">新增用户</a>
+</form>
+<table>
+	<thead>
+		<tr>
+			<th>用户名</th>
+			<th>邮箱</th>
+			<th>操作</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% for(var i in users) {%>
+		<tr>
+			<td><%=users[i].username %></td>
+			<td><%=users[i].email %></td>
+			<td>
+				<a href="/home/user/edit/<%=users[i]._id%>">编辑</a>
+				<a href="/home/user/del/<%=users[i]._id%>">删除</a>
+			</td>
+		</tr>
+		<% }%>
+	</tbody>
+</table>
+</div>
+<%include ../common/footer.html %>

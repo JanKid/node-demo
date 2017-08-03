@@ -1,0 +1,16 @@
+{
+  "name": "monogo",
+  "version": "1.0.0",
+  "description": "Node + Monogo Simple Project",
+  "main": "app.js",
+  "author": "Jan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "mongoose": "^4.11.5"
+  }
+}

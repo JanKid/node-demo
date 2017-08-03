@@ -1,0 +1,191 @@
+.btn {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #bfcbd9;
+    border-color: #c4c4c4;
+    color: #1f2d3d;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #20a0ff;
+    border-color: #20a0ff;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 180px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #bfcbd9;
+    box-sizing: border-box;
+    color: #1f2d3d;
+    display: inline-block;
+    font-size: inherit;
+    height: 36px;
+    line-height: 1;
+    outline: none;
+    padding: 3px 10px;
+    transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+}
+
+.main {
+    width: 1390px;
+    margin: 0 auto;
+    text-align: center;
+    color: #cfcfcf;
+}
+
+.container {
+    width: 1390px;
+    margin: 0 auto;
+}
+
+.main .context {
+    padding: 100px 50px 40px;
+}
+
+.main h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.main h1 span {
+    color: #259dff;
+}
+
+.main p {
+    margin-bottom: 20px;
+}
+
+.main a {
+    margin: 0 15px;
+}
+
+.login {
+    width: 360px;
+    padding-top: 210px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.edit-form {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.edit-form label {
+    width: 70px;
+    text-align: right;
+    display: inline-block;
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login input {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #bfcbd9;
+    box-sizing: border-box;
+    color: #1f2d3d;
+    font-size: inherit;
+    line-height: 1;
+    outline: 0;
+    padding: 3px 10px;
+    height: 45px;
+    border-radius: 2px;
+    transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+}
+ .form-item {
+    margin-bottom: 20px;
+}
+
+.login button {
+    display: inline-block;
+    width: 100%;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #4db3ff;
+    border: 1px solid #4db3ff;
+    color: #fff;
+    margin: 0;
+    padding: 10px 15px;
+    height: 52px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.sidebar {
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0px 3px 8px 0 rgba(175, 179, 209, 0.16);
+    margin-bottom: 30px;
+}
+
+.logo {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.sidebar ul,
+.sidebar li {
+    display: inline-block;
+}
+
+.sidebar a {
+    display: inline-block;
+    height: 100%;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+
+.site-main p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+table {
+    min-width: 500px;
+    margin-top: 10px;
+}
+
+table th {
+    background: #eee;
+}
+
+table th,
+table td {
+    line-height: 35px;
+}
