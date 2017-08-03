@@ -17,8 +17,6 @@ yarn run dev
 ### 目录结构
 ```
 ├── README.md
-├── dist // rollup 打包好的可访问文件
-│   └── utils.js
 ├── controllers // 控制期
 │   ├── auth.js //权限控制
 │   ├── site.js //首页控制
